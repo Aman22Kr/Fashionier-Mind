@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>fashionierMind | Haute Couture Atelier & Bespoke Bridal</title>
+    <script>
+      // Single Page Application redirect script for GitHub Pages
+      // Redirects non-hash deep links into HashRouter format
+      var path = window.location.pathname;
+      var repoName = path.split('/')[1];
+      if (repoName && window.location.pathname.startsWith('/' + repoName)) {
+        var rest = path.slice(repoName.length + 1);
+        if (rest && !rest.startsWith('/#')) {
+          window.location.replace('/' + repoName + '/#' + rest + window.location.search);
+        }
+      }
+    </script>
+    <meta http-equiv="refresh" content="0;URL='./'">
+  </head>
+  <body>
+    <p>Redirecting to fashionierMind...</p>
+  </body>
+</html>
