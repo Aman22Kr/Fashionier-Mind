@@ -1,0 +1,8 @@
+{
+  "name": "fashionierMind",
+  "description": "High-fashion couture atelier & bespoke bridal, gala gowns, and luxury runway collections by fashionierMind.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
